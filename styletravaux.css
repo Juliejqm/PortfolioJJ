@@ -1,0 +1,53 @@
+#content-works {
+    height: 59vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    text-align: center;
+
+    margin-bottom: 3vh;
+
+}
+
+.works-little-box {
+    border: 3px solid #605E5C;
+    padding: 1.5vW;
+
+    width: 65%;
+
+}
+
+.works-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.works-little-box:hover {
+    background-color: #605E5C ;
+    color: #FFFAF0 ;
+    transition: ease 0.3s;
+}
+
+.number-works-left, .number-works-right {
+    font-family: 'Rozha One';
+    font-size: 10vh;
+    color:  #99ABD5;
+
+    position: absolute;
+    margin-top: 7vh ;
+
+}
+
+.number-works-left {
+    margin-right: 33vw;
+}
+
+.number-works-right {
+
+    margin-left: 35vw;
+
+}

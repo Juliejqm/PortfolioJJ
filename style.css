@@ -1,0 +1,343 @@
+html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+    cursor: none;
+
+
+}
+
+a {
+    cursor: none;
+}
+
+#index {
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Rozha One';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    color: #FFFAF0;
+    background: linear-gradient(50deg, #dad4ec, 25%, #93a5cf);
+}
+
+.others {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    color: #605E5C;
+    background-color: #FFFAF0;
+
+}
+
+#works, #index, #contact {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+#container {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+
+    z-index: 1;
+}
+
+.links-white, .links-grey {
+    font-size: 3vh;
+    text-decoration: none;
+
+}
+
+.links-white  {
+    color: #FFFAF0;
+}
+
+.links-w :hover {
+    border-bottom: 2px solid  #FFFAF0;
+
+}
+
+.links-grey  {
+    color: #605E5C;
+}
+
+
+#header, #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1, p {
+    margin: 0;
+}
+
+#header {
+    width: 65vw;
+    height: 12vh;
+
+    font-family: 'Rozha One';
+}
+
+#title {
+    text-transform: uppercase;
+    font-size: 4vh;
+
+    width: 65vw;
+    height: 15vh;
+    font-family: 'Rozha One';
+}
+
+#footer {
+    width: 30vw;
+    height: 8vh;
+}
+
+#header .links  {
+    margin-top: 30px;
+}
+
+a:hover {
+    font-size: 3.5vh;
+    transition: ease 0.2s;
+}
+
+.title-others {
+    text-shadow: #605E5C 1px 1px 1px;
+}
+
+#footer a {
+    margin-bottom: 30px;
+}
+
+#container-lines {
+    position: absolute;
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+
+    z-index: 0;
+}
+
+#container-horizontal-lines, #container-vertical-lines, #container-horizontal-lines-others, #container-vertical-lines-others {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#container-horizontal-lines, #container-horizontal-lines-others {
+    flex-direction: column;
+}
+
+#container-vertical-lines, #container-vertical-lines-others {
+    flex-direction: row;
+}
+
+.horizontal-lines {
+    height: 40vh;
+    width: 60vw;
+}
+
+.vertical-lines {
+    height: 58vh;
+    width: 15vw;
+}
+
+#top-horizontal-lines {
+    margin-left: auto;
+    border-bottom: 3px solid #FFFAF0;
+}
+
+#bottom-horizontal-lines {
+    border-top: 3px solid #FFFAF0;
+}
+
+#left-vertical-lines {
+    margin-top: auto;
+    border-right: 3px solid #FFFAF0;
+}
+
+#right-vertical-lines {
+    border-left: 3px solid #FFFAF0;
+}
+
+.horizontal-lines-others {
+    height: 15vh;
+    width: 60vw;
+}
+.horizontal-lines-others-bottom {
+    height: 65vh;
+    width: 60vw;
+}
+
+.vertical-lines-others {
+    height: 58vh;
+    width: 15vw;
+}
+
+.vertical-lines-others-left {
+    height: 80vh;
+    width: 15vw;
+}
+
+#top-horizontal-lines-others {
+    margin-left: auto;
+    border-bottom: 3px solid #605E5C;
+}
+
+#bottom-horizontal-lines-others {
+    border-top: 3px solid #605E5C;
+}
+
+#left-vertical-lines-others {
+    margin-top: auto;
+    border-right: 3px solid#605E5C;
+}
+
+#right-vertical-lines-others {
+    border-left: 3px solid #605E5C;
+}
+
+
+.title-others {
+    color: #99ABD5;
+}
+
+.sub-title {
+
+    font-size: 25px;
+    font-family: 'Rozha One';
+}
+
+.simple-text, .works-little-box {
+
+    font-size: 16px;
+    font-family: 'Roboto';
+
+}
+
+#content-about, #content-contact, #content-works {
+
+    width: 47vw;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cursor-white, .cursor-grey  {
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    position: absolute;
+
+    z-index: 1;
+    animation: Animhover 1s infinite alternate;
+
+}
+
+.cursor-white::before, .cursor-grey::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    
+    
+}
+
+.cursor-white {
+
+    border: 1px dashed #FFFAF0;
+
+}
+
+.cursor-white::before {
+
+    background: #FFFAF0;
+}
+
+.cursor-grey {
+
+    border: 1px dashed #605E5C;
+
+}
+
+.cursor-grey::before {
+    
+    background: #605E5C;
+}
+
+.expand-white, .expand-grey {
+    animation: Animclick .5s;
+
+}
+
+.expand-white {
+    border: 1px solid #FFFAF0 ;
+
+}
+
+.expand-grey {
+    border: 1px solid #605E5C ;
+
+}
+
+@keyframes Animclick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes Animhover {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(0.7) rotate(190deg);
+    }
+}
+
+#unavailable {
+    font-family: 'Rohza One';
+    font-size: 30px;
+    margin-top: 25%;
+}

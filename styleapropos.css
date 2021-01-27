@@ -1,0 +1,32 @@
+#picture-about {
+    height: 260px;
+    margin-top: 15vh;
+
+    border: 3px solid #605E5C;
+    z-index: 0;
+}
+
+#title-about {
+    margin-top: 7vh;
+}
+
+#bottom-line {
+    width: 100%;
+    height: 15vh;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#end {
+ 
+    width: 75%;
+    color: #605E5C;
+    border: 1px solid #605E5C;
+}
+
+body {
+    background-color: #FFFAF0;
+}
