@@ -58,8 +58,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 
     z-index: 1;
 }
@@ -96,8 +96,7 @@ h1, p {
 
 #header {
     width: 65vw;
-    height: 12vh;
-
+    height: 19vh;
     font-family: 'Rozha One';
 }
 
@@ -106,7 +105,7 @@ h1, p {
     font-size: 4vh;
 
     width: 65vw;
-    height: 15vh;
+    height: 25vh;
     font-family: 'Rozha One';
 }
 
@@ -260,6 +259,7 @@ a:hover {
 
     z-index: 1;
     animation: Animhover 1s infinite alternate;
+    display: none;
 
 }
 
@@ -273,8 +273,6 @@ a:hover {
     height: 6px;
 
     border-radius: 50%;
-    
-    
 }
 
 .cursor-white {
@@ -340,4 +338,15 @@ a:hover {
     font-family: 'Rohza One';
     font-size: 30px;
     margin-top: 25%;
+}
+
+@media (max-width: 960px) {
+    #title {font-size: 6.5vw; height: 20vw;}
+    .links-white, .links-grey {font-size: 5vw;}
+    #header {justify-content: space-around; height: 0px;}
+
+    .horizontal-lines { height: 38vh;}
+    #content-about, #content-contact, #content-works {width: 60vw;}
+    #content-about {margin-top: 25vh;}
+
 }

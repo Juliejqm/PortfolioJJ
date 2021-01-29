@@ -12,7 +12,7 @@
 
 .works-little-box {
     border: 3px solid #605E5C;
-    padding: 1.5vW;
+    padding: 1.5vh;
 
     width: 65%;
 
@@ -34,7 +34,7 @@
 
 .number-works-left, .number-works-right {
     font-family: 'Rozha One';
-    font-size: 10vh;
+    font-size: 8vh;
     color:  #99ABD5;
 
     position: absolute;
@@ -42,12 +42,17 @@
 
 }
 
+@media (max-width: 960px) {
+    .number-works-left, .number-works-right {display: none;}
+        #header {height: auto;}
+  }
+
 .number-works-left {
-    margin-right: 33vw;
+    margin-right: 34vw;
 }
 
 .number-works-right {
 
-    margin-left: 35vw;
+    margin-left: 34vw;
 
 }

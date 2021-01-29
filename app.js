@@ -1,29 +1,25 @@
-const cursorwhite = document.querySelector('.cursor-white');
+const cursorall = document.querySelector('.cursor-all');
+const cursorcolor = document.querySelector('#cursor-color').value;
 
 document.addEventListener('mousemove', e => {
-    cursorwhite.setAttribute('style', 'top:'+(e.pageY - 25)+"px; left:"+(e.pageX - 20)+"px;")
-})
 
-const cursorgrey = document.querySelector('.cursor-grey');
-
-document.addEventListener('mousemove', e => {
-    cursorgrey.setAttribute('style', 'top:'+(e.pageY - 25)+"px; left:"+(e.pageX - 20)+"px;")
+    cursorall.setAttribute('style', 'top:'+(e.pageY - 25)+"px; left:"+(e.pageX - 20)+"px;")
 })
 
 document.addEventListener('click', ()=>{
-    cursorwhite.classList.add('expand-white');
+    cursorall.classList.add('expand-' + cursorcolor);
 
     setTimeout(()=>{
-        cursorwhite.classList.remove("expand-white");
+        cursorall.classList.remove("expand-"  + cursorcolor);
     }, 500);
 })
 
-document.addEventListener('click', ()=>{
-    cursorgrey.classList.add('expand-grey');
 
-    setTimeout(()=>{
-        cursorgrey.classList.remove("expand-grey");
-    }, 500);
+document.addEventListener('mousemove', ()=>{
+    if(window.innerWidth>960) {
+    cursorall.style.display = "block";
+    }
+    
 })
 
 
