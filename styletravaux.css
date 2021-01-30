@@ -45,6 +45,7 @@
 @media (max-width: 960px) {
     .number-works-left, .number-works-right {display: none;}
     #header {height: 14vh;}
+    h1 { margin-top: 7vh;}
   }
 
 .number-works-left {

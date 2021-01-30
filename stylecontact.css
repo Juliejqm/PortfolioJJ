@@ -35,4 +35,6 @@
 }
 
 @media (max-width: 960px) {
-    #header {height: 14vh;}}
+    #header {height: 14vh;}
+    h1 { margin-top: 7vh;}
+}
