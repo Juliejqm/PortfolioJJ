@@ -67,6 +67,8 @@ a {
 .links-white, .links-grey {
     font-size: 3vh;
     text-decoration: none;
+    
+    z-index: 4;
 
 }
 
@@ -257,9 +259,11 @@ a:hover {
     border-radius: 50%;
     position: absolute;
 
-    z-index: 1;
+    z-index: 5;
     animation: Animhover 1s infinite alternate;
     display: none;
+
+    pointer-events: none;
 
 }
 
@@ -273,6 +277,8 @@ a:hover {
     height: 6px;
 
     border-radius: 50%;
+
+    pointer-events: none;
 }
 
 .cursor-white {
