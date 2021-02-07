@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: #FFFAF0;
+    background-color: #fffaf0;
 }
 
 #content-about {
@@ -30,7 +30,8 @@ body {
 }
 
 @media (max-width: 960px) {
-h1 { margin-top: 15.5vh;} 
+h1 {margin-top: 15.5vh;} 
 #header {height: 14vh;}
 #content-about {margin-top: 27vh;}
+#end {margin-top: 15px; margin-bottom: 15px;}
 }

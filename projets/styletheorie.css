@@ -1,0 +1,16 @@
+body {background-color: #fffaf0;}
+
+.simple-text {
+    margin-bottom: 8vh;
+}
+
+iframe {
+    margin-bottom: 3vh;
+}
+
+@media (max-width: 960px) {
+    h1 {margin-top: 15.5vh;} 
+    #header {height: 14vh;}
+    #content-theorie-animee {margin-top: 27vh;}
+    }
+

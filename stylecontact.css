@@ -1,3 +1,4 @@
+body { background-color: #FFFAF0;}
 #content-mail, #content-socials {
     display: flex;
     flex-direction: column;

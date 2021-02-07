@@ -5,8 +5,6 @@ html, body{
     width: 100vw;
 
     cursor: none;
-
-
 }
 
 a {
@@ -77,7 +75,7 @@ a {
 }
 
 .links-w :hover {
-    border-bottom: 2px solid  #FFFAF0;
+    border-bottom: 2px solid #FFFAF0;
 
 }
 
@@ -121,7 +119,7 @@ h1, p {
 }
 
 a:hover {
-    font-size: 3.5vh;
+    font-size: 3.15vh;
     transition: ease 0.2s;
 }
 
@@ -242,10 +240,9 @@ a:hover {
 
 }
 
-#content-about, #content-contact, #content-works {
+.content {
 
     width: 47vw;
-
     display: flex;
     flex-direction: column;
 
@@ -305,6 +302,7 @@ a:hover {
 
 .expand-white, .expand-grey {
     animation: Animclick .5s;
+    pointer-events: none;
 
 }
 
@@ -355,4 +353,12 @@ a:hover {
     #content-about, #content-contact, #content-works {width: 60vw;}
     #content-about {margin-top: 25vh;}
 
+    .return {margin-right:0%}
+
+}
+
+.return {
+    margin-top: 10vh;
+    width: 100%;
+    text-align: left;
 }

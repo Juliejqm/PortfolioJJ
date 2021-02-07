@@ -1,4 +1,7 @@
+body { background-color: #FFFAF0;}
 #content-works {
+
+
     height: 59vh;
     display: flex;
     flex-direction: column;
