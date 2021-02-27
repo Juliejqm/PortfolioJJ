@@ -1,0 +1,45 @@
+body {background-color: #fffaf0;}
+
+.simple-text {
+    margin-bottom: 5vh;
+}
+
+iframe {
+    margin-bottom: 5vh;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    height: 240px;
+    margin-bottom: 5vh;
+}
+
+#bottom-line {
+    width: 100%;
+    height: 10vw;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#end {
+ 
+    width: 75%;
+    color: #605E5C;
+    border: 1px solid #605E5C;
+}
+
+
+
+@media (max-width: 960px) {
+    h1 {margin-top: 15.5vh;} 
+    #header {height: 14vh;}
+    #content-nilk {margin-top: 27vh;}
+    }
