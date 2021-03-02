@@ -30,9 +30,9 @@ body {
 }
 
 @media (max-width: 960px) {
-h1 {margin-top: 15.5vh;} 
+h1 {margin-top: 9vh;} 
 #header {height: 14vh;}
-#content-about {margin-top: 27vh;}
+#content-about {margin-top: 17vh;}
 #end {margin-top: 15px; margin-bottom: 15px;}
 #bottom-line {display: none;}
 }
